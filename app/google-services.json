@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "550746489519",
+    "project_id": "crudcleanarchitecture",
+    "storage_bucket": "crudcleanarchitecture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550746489519:android:c0f4a88c0374e87d194a5a",
+        "android_client_info": {
+          "package_name": "io.fernando.ngana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPCSSpjHR4-V43Jh665_gHS7QZgKIpN54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
