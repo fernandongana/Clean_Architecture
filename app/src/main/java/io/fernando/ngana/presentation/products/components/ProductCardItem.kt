@@ -45,17 +45,17 @@ fun ProductCardItem(
                 Text(
                     text = product.name.orEmpty(),
                     color = Color.DarkGray,
-                    fontSize = 20.sp,
+                    fontSize = 16.sp,
                 )
                 Text(
                     text = product.category.orEmpty(),
-                    color = Color.DarkGray,
-                    fontSize = 18.sp,
+                    color = Color.Gray,
+                    fontSize = 13.sp,
                 )
                 Text(
                     text = product.description.orEmpty(),
-                    color = Color.DarkGray,
-                    fontSize = 18.sp,
+                    color = Color.LightGray,
+                    fontSize = 12.sp,
                 )
             }
             Spacer(
@@ -64,6 +64,7 @@ fun ProductCardItem(
             IconButton(onClick = { deleteProduct.invoke(product.id.orEmpty()) }) {
                 Icon(
                     imageVector = Icons.Default.Delete,
+                    tint = Color.Green,
                     contentDescription = null,
                 )
             }
